@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en- US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUTH FOR YOUTH UGANDA NETWORK – Mental Health Awareness</title>
+
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: whitesmoke
+        }
+
+        header {
+            background: blue;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            text-emphasis-color: rgb(100, 1, 84);
+        }
+
+        nav {
+            background: blue;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: mediumslateblue;
+        }
+
+
+        .hero {
+            background: url('https://images.pexels.com/photos/256559/pexels-photo-256559.jpeg') center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+            text-shadow: 2px 2px 6px black;
+        }
+
+        .section {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background: #1c3578;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        /* Contact form */
+        input,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background: #2a4fa2;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>YOUTH FOR YOUTH UGANDA NETWORK</h1>
+        <p>Empowering Young People For Generations</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <!-- HOME SECTION -->
+    <section id="home" class="hero">
+        YOU ARE NOT ALONE
+    </section>
+
+    <section class="container section">
+        <h2>Welcome to Youth For Youth Uganda Network</h2>
+        <p>
+            OUR MISSION <br> To raise awareness<br> empower young people <br> promote emotional well-being
+            <br> and provide mental health support across Uganda.
+        </p>
+        <p><strong>Join our mission today!</strong></p>
+    </section>
+
+    <!-- ABOUT US SECTION -->
+    <section id="about" class="container section">
+        <h2>About Us</h2>
+        <p>
+            Youth For Youth Uganda Network was founded to address rising mental health challenges in Africa's youngest
+            population, create
+            We create safe spaces, offer free resources, and conduct outreach in schools and communities.
+        </p>
+
+        <h3>Our Goals</h3>
+        <ul>
+            <li>Increase mental health awareness</li>
+            <li>Provide free counseling resources</li>
+            <li>Support the youth through workshops & campaigns</li>
+            <li>Fight stigma around mental health</li>
+        </ul>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="container section">
+        <h2>Services & Resources</h2>
+        <ul>
+            <li><strong>Peer Counseling:</strong> Free youth-to-youth support</li>
+            <li><strong>Mental Health Helplines:</strong> Call, SMS, WhatsApp options</li>
+            <li><strong>Downloadable Guides:</strong> Stress, depression, anxiety, relationships</li>
+            <li><strong>Workshops:</strong> School outreach and youth leadership training</li>
+            <li><strong>Community Groups:</strong> Weekly safe-space discussions</li>
+        </ul>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section id="gallery" class="container section">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="https://i.pinimg.com/736x/9b/16/a0/9b16a0b4c8bc552294161e9611598344.jpg">
+            <img src="https://images.pexels.com/photos/2422461/pexels-photo-2422461.jpeg">
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="container section">
+        <h2>Contact Us</h2>
+        <p>Send us a message or reach out for help anytime.</p>
+
+        <form onsubmit="submitForm(event)">
+            <input type="text" id="name" placeholder="Your Name (optional)">
+            <input type="email" id="email" placeholder="Your Email (optional)">
+            <textarea id="message" placeholder="Your Message..." rows="5"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <p><strong>WhatsApp:</strong> +256 XXX XXX XXX</p>
+        <p><strong>Email:</strong> support@youthminduganda.org</p>
+    </section>
+
+    <footer>
+        YouthMind Uganda © 2025 — Mental Health Matters
+    </footer>
+
+</body>
+
+</html>
